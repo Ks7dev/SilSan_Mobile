@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_login">Login</string>
+    <string name="app_slogan_p1">AVICULTURA</string>
+    <string name="app_slogan_p2">SILSAN</string>
+    <string name="app_welcome">BEM-VINDO</string>
+    <string name="app_forgot_password">ESQUECEU SUA SENHA?</string>
+    <string name="app_register">REGISTRE-SE</string>
+    <string name="app_email">EMAIL</string>
+    <string name="app_password">SENHA</string>
+    <string name="text_tel">TELEFONE</string>
+    <string name="text_name">NOME</string>
+    <string name="text_search">PESQUISAR</string>
+    <string name="app_name">Product List</string>
+
+    <string name="string_Tipo_Produto">Ração</string>
+    <string name="string_Peso_Produto">15kg</string>
+    <string name="string_Fabricante_Produto">Special Dog</string>
+    <string name="string_Classificacao_Animal_Produto">Cachorro</string>
+    <string name="string_Classificção_Idade_Produto">Adulto</string>
+
+
+    <string name="string_product">Nome do Produto</string>
+    <string name="string_price">R$99,99</string>
+
+
+
+
+</resources>

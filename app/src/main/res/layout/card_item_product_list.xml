@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/card_item_list_product"
+        android:background="@color/grey"
+        android:padding="6dp"
+        android:layout_margin="6dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="734dp"
+            android:background="@drawable/menu_cards"
+            ></ImageView>
+
+
+
+        <RelativeLayout
+            android:background="@color/beige"
+            android:layout_marginVertical="150dp"
+            android:layout_width="180dp"
+            android:layout_height="270dp"
+            android:paddingTop="6dp"
+            android:paddingLeft="0dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:layout_marginLeft="14dp"
+            android:layout_marginRight="14dp"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            >
+
+
+            <ImageView
+                android:id="@+id/image_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingBottom="60dp"
+                android:layout_alignParentEnd="true"
+                android:contentDescription="@string/app_name"
+                android:src="@drawable/dog2" />
+
+            <TextView
+
+                android:id="@+id/textView_Tipo_Produto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="47dp"
+                android:text="@string/string_Tipo_Produto"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView_Classificacao_Animal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:paddingLeft="5dp"
+                android:layout_marginStart="0dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="47dp"
+                android:text="@string/string_Classificacao_Animal_Produto"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:layout_toRightOf="@id/textView_Tipo_Produto"
+                android:textSize="18sp"/>
+            <TextView
+                android:id="@+id/textView_Classificção_Idade_Produto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="26dp"
+                android:layout_alignBottom="@id/textView_Classificacao_Animal"
+                android:text="@string/string_Classificção_Idade_Produto"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="18sp" />
+            <TextView
+                android:id="@+id/textView_Peso_Produto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="3dp"
+                android:paddingLeft="5dp"
+                android:layout_toRightOf="@id/textView_price"
+                android:text="@string/string_Peso_Produto"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+            <TextView
+                android:id="@+id/textView_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="3dp"
+                android:text="@string/string_price"
+                android:textStyle="bold"
+                android:textAllCaps="true"
+                android:textSize="20sp" />
+
+
+
+
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>
